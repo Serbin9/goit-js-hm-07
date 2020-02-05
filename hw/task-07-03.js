@@ -43,6 +43,21 @@ const imagesAsLi = images.map(image => {
 gallery.append(...imagesAsLi);
 
 
+// вариант 2
+// const letUl = document.querySelector("ul#gallery");
+// function insertImages(arr) {
+//   const arrImg = arr.map(key => {
+//     const imgEl = document.createElement("li");
+//     imgEl.insertAdjacentHTML("afterbegin", `<img src='${key.url}' alt='${key.alt}' width=300 height=220>`);
+//     return imgEl;
+//   });
+//   return letUl.prepend(...arrImg);
+// }
+
+// insertImages(images);
+
+// letUl.style.display = "flex";
+// letUl.style.justifyContent = "space-around"; 
 
 
 

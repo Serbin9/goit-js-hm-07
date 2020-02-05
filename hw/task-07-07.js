@@ -12,3 +12,4 @@ const changetextSize = function(size){
     text.style.fontSize = `${event.target.value}px`;
 }
 input.addEventListener("input", changetextSize);
+
